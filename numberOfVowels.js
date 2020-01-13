@@ -17,4 +17,12 @@ const numberOfVowels = (input) => {
   return countLetters(input, want);
 };
 
-module.exports = numberOfVowels;
+exports.numberOfVowels = numberOfVowels;
+
+
+const numberOfFirstFive = (input) => {
+  const want = ['a', 'b', 'c', 'd', 'e'];
+  return countLetters(input, want);
+};
+
+exports.numberOfFirstFive = numberOfFirstFive;
